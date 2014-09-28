@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # pacpl usage sample:
-# pacpl -t mp3  -v -bitrate 320 --overwrite 致青春.mp
+# pacpl -t mp3  -v -bitrate 320 --overwrite 致青春.mp3
 
 usage()
 {
