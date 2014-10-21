@@ -3,3 +3,12 @@ This repo contains daily tools used to automate work.
 ## song_converter.sh
 song_converter.sh will use pacpl to extract video' audio from mp4 file and
 store it in mp3 format.
+
+## x
+This script takes a normal command, in any form, and discard all its
+output, then makes it run in the background.
+
+## note_convert
+This script will convert markdown format file into html using
+pandoc. Only one file is allowed. Output will assume to replace the
+suffix of the file.
