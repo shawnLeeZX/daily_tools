@@ -12,3 +12,8 @@ output, then makes it run in the background.
 This script will convert markdown format file into html using
 pandoc. Only one file is allowed. Output will assume to replace the
 suffix of the file.
+
+## privilege_fix.sh
+This script will change the privilege of files and folders under the
+folder given into a safe mode. No one except yourself could access to
+them.
