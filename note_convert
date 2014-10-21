@@ -1,0 +1,15 @@
+#!/bin/bash
+
+usage()
+{
+    printf "%b" "
+This script will convert markdown format file into html using
+pandoc. Only one file is allowed. Output will assume to replace the
+suffix of the file.
+
+Usage:
+    pandoc TARGET_FILE
+"
+}
+
+pandoc $1 -f markdown -t html -o ${1%.*}.html
