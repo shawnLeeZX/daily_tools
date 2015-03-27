@@ -28,4 +28,4 @@ This script could extract any range of pages from PDF.
 ## djvu_2_pdf.sh
 The script converts document from djvu format to pdf format. The most important
 feature is that it keeps the text layer of djvu file so you could highlight
-text! This is very important for serious reading of books.
+text in your new pdf! This is very important for serious reading of books.
