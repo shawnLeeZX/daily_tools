@@ -17,3 +17,15 @@ suffix of the file.
 This script will change the privilege of files and folders under the
 folder given into a safe mode. No one except yourself could access to
 them.
+
+## pdf_merger.sh
+This script could merge multiple pdf files into one, with order the same with
+the order you list the files in the command line.
+
+## pdf_page_extractor.sh
+This script could extract any range of pages from PDF.
+
+## djvu_2_pdf.sh
+The script converts document from djvu format to pdf format. The most important
+feature is that it keeps the text layer of djvu file so you could highlight
+text! This is very important for serious reading of books.

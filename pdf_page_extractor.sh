@@ -3,6 +3,7 @@
 usage()
 {
     printf "%b" "
+This script could extract any range of pages from PDF.
 
 Usage:
     $1 is the first page of the range to extract

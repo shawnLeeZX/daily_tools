@@ -8,7 +8,7 @@
 # Package-Requires: ()
 # Last-Updated:
 #           By:
-#     Update #: 135
+#     Update #: 137
 #
 #
 # Commentary:
@@ -19,7 +19,10 @@
 usage()
 {
     printf "%b" "
-The script converts document from djvu format to pdf format.
+The script converts document from djvu format to pdf format. The most important
+feature is that it keeps the text layer of djvu file so you could highlight
+text! This is very important for serious reading of books.
+
 Usage:
   bash djvu_2_pdf.sh INPUT_FILE
 
