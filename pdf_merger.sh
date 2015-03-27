@@ -3,6 +3,8 @@
 usage()
 {
     printf "%b" "
+This script could merge multiple pdf files into one, with order the same with
+the order you list the files in the command line.
 
 Usage:
     Output file will be named merge.pdf.
