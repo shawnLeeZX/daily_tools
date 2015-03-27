@@ -29,3 +29,6 @@ This script could extract any range of pages from PDF.
 The script converts document from djvu format to pdf format. The most important
 feature is that it keeps the text layer of djvu file so you could highlight
 text in your new pdf! This is very important for serious reading of books.
+
+Note that no space is allowed in the book's file name(I did not figure out a
+elegant way to handle it. If anyone knows, it is great to let me know).
