@@ -8,7 +8,7 @@
 # Package-Requires: ()
 # Last-Updated:
 #           By:
-#     Update #: 137
+#     Update #: 138
 #
 #
 # Commentary:
@@ -47,7 +47,7 @@ FILE_NAME=${DJVU_FILE%.djvu}
 # We process the document page by page since it seems that pdfbeads will create
 # very large intermediate files during operation, which impractical.
 
-TMP_DIR="/tmp/djvu_2_pdf"
+TMP_DIR="/tmp/djvu_2_pdf_${FILE_NAME}"
 
 # Create the tmp folder to hold intermediate output.
 if [ ! -d ${TMP_DIR} ]
