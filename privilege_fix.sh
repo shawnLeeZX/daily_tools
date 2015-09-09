@@ -26,11 +26,11 @@ TARGET_FOLDER=$1
 # it this way first, and adding a backslash seems to work the same.
 find $TARGET_FOLDER -type f -not \
     -path '*/\.*' \
-    -not -iregex ".*\.\(py\)\|\(sh\)" \
+    -not -iregex ".*\.\(\(py\)\|\(sh\)\)" \
     -exec chmod 600 {} \; # exclude normal executable files
 
 # Change all executable file to be executable.
-find $TARGET_FOLDER -type f -iregex ".*\.\(py\)\|\(sh\)" -exec chmod 700 {} \;
+find $TARGET_FOLDER -type f -iregex ".*\.\(\(py\)\|\(sh\)\)" -exec chmod 700 {} \;
 
 # Change all folders mode to 700.
 find $TARGET_FOLDER -type d -not -path '*/\.*' -exec chmod 700 {} \;
